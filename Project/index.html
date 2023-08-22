@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3ffc42118d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Javascript Project Music player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+
+        <div class="cover-image"></div>
+        <div class="player-body"></div>
+
+        <div class="list-wrapper">
+            <table class="list" id="playlist">
+            <tr class="song">
+                <td class="no">
+                    <h6>1</h6>
+                </td>
+                <td class="title">
+                    <h6>Song Title</h6>
+                </td>
+                <td class="length">
+                    <h6>1:23</h6>
+                </td>
+                <td>
+                    <i class="fa-solid fa-heart"></i>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <div class="info">
+            <h2>Song title</h2>
+            <h3> Artist</h3>
+        </div>
+        <div class="controls">
+            <i class="fa-solid fa-backward" id="backward"></i>
+            <i class="fa-solid fa-play fa-xl" id="play"></i>
+            <i class="fa-solid fa-forward" id="forward"></i>
+        </div>
+        <div class="more-controls">
+            <i class="fa-solid fa-heart" id="favourite"></i>
+            <i class="fa-solid fa-shuffle" id="shuffle"></i>
+            <i class="fa-solid fa-repeat"id="repeat"></i>
+            <i class="fa-solid fa-gear" id="settings"></i>
+        </div>
+        <p class="current-song-title">Song title</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
